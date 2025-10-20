@@ -30,6 +30,10 @@
 2) Чтобы добавить новый вид животного или предмет, достаточно создать новый класс, унаследованный от Herbo, Predator или Thing
 
 ## LSP (Liskov Substitution Principle)
+Любой подкласс может заменить базовый тип без нарушения логики:
+1) Rabbit, Monkey подставляются вместо Herbo, а Tiger, Wolf вместо Predator.
+
+## ISP (Interface Segregation Principle)
 Интерфейсы минимальны и разделены по смыслу:
 1) IAlive — определяет всё живое свойством Food.
 2) IInventory — определяет инвентаризируемые объекты свойством Number.
